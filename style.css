@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+body {
+  background: #a8b3e8;
+  font-family: "VT323", monospace;
+}
+.stopwatch {
+  width: 90%;
+  max-width: 600px;
+  background: linear-gradient(
+    145deg,
+    rgb(63, 41, 190),
+    rgb(140, 140, 203),
+    rgb(56, 19, 241)
+  );
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 40px 0;
+  color: #fff;
+  margin: 200px auto 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.stopwatch h1 {
+  margin-top: 60px;
+  font-size: 64px;
+  font-weight: 300;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons img {
+  width: 50px;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.buttons img:nth-child(2) {
+  width: 70px;
+}
+#stop:hover {
+  background-color: rgb(38, 37, 35);
+  border-radius: 40px;
+}
+#start:hover {
+  background-color: rgb(44, 51, 234);
+  border-radius: 60px;
+}
+#reset:hover {
+  background-color: rgb(38, 37, 35);
+  border-radius: 40px;
+}
